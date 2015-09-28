@@ -19,3 +19,7 @@ let SEGUE_LOGGED_IN = "loggedIn"
 //Status
 
 let STATUS_ACCOUNT_NONEXIST = -8
+
+
+//Firebase
+let URL_BASE = "https://hubhop.firebaseio.com"

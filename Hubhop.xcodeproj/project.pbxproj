@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0728FBCC1BB8D23800150799 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0728FBCB1BB8D23800150799 /* DataService.swift */; settings = {ASSET_TAGS = (); }; };
+		0728FBCE1BB8F1AF00150799 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0728FBCD1BB8F1AF00150799 /* FeedVC.swift */; settings = {ASSET_TAGS = (); }; };
+		0728FBD01BB8F2B800150799 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0728FBCF1BB8F2B800150799 /* PostCell.swift */; settings = {ASSET_TAGS = (); }; };
 		07F17EBF1BB88F3500A874E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F17EBE1BB88F3500A874E5 /* AppDelegate.swift */; };
 		07F17EC11BB88F3500A874E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F17EC01BB88F3500A874E5 /* ViewController.swift */; };
 		07F17EC41BB88F3500A874E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F17EC21BB88F3500A874E5 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		0728FBCB1BB8D23800150799 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		0728FBCD1BB8F1AF00150799 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		0728FBCF1BB8F2B800150799 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		07F17EBB1BB88F3500A874E5 /* Hubhop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubhop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F17EBE1BB88F3500A874E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F17EC01BB88F3500A874E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				07F17EC01BB88F3500A874E5 /* ViewController.swift */,
+				0728FBCD1BB8F1AF00150799 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 				07F17EDC1BB8945A00A874E5 /* MaterialView.swift */,
 				07F17EE11BB89A2100A874E5 /* MaterialButton.swift */,
 				07F17EE31BB89D1100A874E5 /* MaterialTextField.swift */,
+				0728FBCF1BB8F2B800150799 /* PostCell.swift */,
 				07F17EC21BB88F3500A874E5 /* Main.storyboard */,
 				07F17EC71BB88F3500A874E5 /* LaunchScreen.storyboard */,
 			);
@@ -312,6 +318,8 @@
 				0728FBCC1BB8D23800150799 /* DataService.swift in Sources */,
 				07F17EDD1BB8945A00A874E5 /* MaterialView.swift in Sources */,
 				07F17EC11BB88F3500A874E5 /* ViewController.swift in Sources */,
+				0728FBCE1BB8F1AF00150799 /* FeedVC.swift in Sources */,
+				0728FBD01BB8F2B800150799 /* PostCell.swift in Sources */,
 				07F17EBF1BB88F3500A874E5 /* AppDelegate.swift in Sources */,
 				07F17EE01BB894BD00A874E5 /* Constants.swift in Sources */,
 				07F17EE21BB89A2100A874E5 /* MaterialButton.swift in Sources */,
