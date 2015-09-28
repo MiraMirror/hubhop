@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0728FBCC1BB8D23800150799 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0728FBCB1BB8D23800150799 /* DataService.swift */; settings = {ASSET_TAGS = (); }; };
 		07F17EBF1BB88F3500A874E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F17EBE1BB88F3500A874E5 /* AppDelegate.swift */; };
 		07F17EC11BB88F3500A874E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F17EC01BB88F3500A874E5 /* ViewController.swift */; };
 		07F17EC41BB88F3500A874E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F17EC21BB88F3500A874E5 /* Main.storyboard */; };
 		07F17EC61BB88F3500A874E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F17EC51BB88F3500A874E5 /* Assets.xcassets */; };
 		07F17EC91BB88F3500A874E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F17EC71BB88F3500A874E5 /* LaunchScreen.storyboard */; };
+		07F17ED81BB88F8E00A874E5 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07F17ED41BB88F8E00A874E5 /* NotoSans-Bold.ttf */; settings = {ASSET_TAGS = (); }; };
+		07F17ED91BB88F8E00A874E5 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07F17ED51BB88F8E00A874E5 /* NotoSans-BoldItalic.ttf */; settings = {ASSET_TAGS = (); }; };
+		07F17EDA1BB88F8E00A874E5 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07F17ED61BB88F8E00A874E5 /* NotoSans-Italic.ttf */; settings = {ASSET_TAGS = (); }; };
+		07F17EDB1BB88F8E00A874E5 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07F17ED71BB88F8E00A874E5 /* NotoSans-Regular.ttf */; settings = {ASSET_TAGS = (); }; };
+		07F17EDD1BB8945A00A874E5 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F17EDC1BB8945A00A874E5 /* MaterialView.swift */; settings = {ASSET_TAGS = (); }; };
+		07F17EE01BB894BD00A874E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F17EDF1BB894BD00A874E5 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		07F17EE21BB89A2100A874E5 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F17EE11BB89A2100A874E5 /* MaterialButton.swift */; settings = {ASSET_TAGS = (); }; };
+		07F17EE41BB89D1100A874E5 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F17EE31BB89D1100A874E5 /* MaterialTextField.swift */; settings = {ASSET_TAGS = (); }; };
+		07F17EE71BB8A1D800A874E5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F17EE61BB8A1D800A874E5 /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		07F17EEA1BB8A1F400A874E5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F17EE81BB8A1F400A874E5 /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		07F17EEB1BB8A1F400A874E5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F17EE91BB8A1F400A874E5 /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		B860279BE4B455623B34DE39 /* Pods_Hubhop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FD5000D1EBB3EEB4D656A0 /* Pods_Hubhop.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0728FBCB1BB8D23800150799 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		07F17EBB1BB88F3500A874E5 /* Hubhop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubhop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F17EBE1BB88F3500A874E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F17EC01BB88F3500A874E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,20 @@
 		07F17EC51BB88F3500A874E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07F17EC81BB88F3500A874E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07F17ECA1BB88F3500A874E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F17ED41BB88F8E00A874E5 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		07F17ED51BB88F8E00A874E5 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		07F17ED61BB88F8E00A874E5 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		07F17ED71BB88F8E00A874E5 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		07F17EDC1BB8945A00A874E5 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		07F17EDF1BB894BD00A874E5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		07F17EE11BB89A2100A874E5 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		07F17EE31BB89D1100A874E5 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		07F17EE61BB8A1D800A874E5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		07F17EE81BB8A1F400A874E5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		07F17EE91BB8A1F400A874E5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		31FD5000D1EBB3EEB4D656A0 /* Pods_Hubhop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubhop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A15CB4FAC03293BFB2B1D82 /* Pods-Hubhop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubhop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hubhop/Pods-Hubhop.release.xcconfig"; sourceTree = "<group>"; };
+		6D00990CC1A2D841F702271A /* Pods-Hubhop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hubhop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hubhop/Pods-Hubhop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F17EE71BB8A1D800A874E5 /* Bolts.framework in Frameworks */,
+				07F17EEA1BB8A1F400A874E5 /* FBSDKCoreKit.framework in Frameworks */,
+				07F17EEB1BB8A1F400A874E5 /* FBSDKLoginKit.framework in Frameworks */,
+				B860279BE4B455623B34DE39 /* Pods_Hubhop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0728FBCA1BB8D22600150799 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0728FBCB1BB8D23800150799 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		07F17EB21BB88F3500A874E5 = {
 			isa = PBXGroup;
 			children = (
 				07F17EBD1BB88F3500A874E5 /* Hubhop */,
 				07F17EBC1BB88F3500A874E5 /* Products */,
+				9CAD7EDFB393A58301800AC0 /* Pods */,
+				AC4C8447D3CBEDE817EBAB63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,91 @@
 		07F17EBD1BB88F3500A874E5 /* Hubhop */ = {
 			isa = PBXGroup;
 			children = (
+				0728FBCA1BB8D22600150799 /* Services */,
+				07F17EE51BB8A1CB00A874E5 /* Frameworks */,
+				07F17EDE1BB894AE00A874E5 /* Util */,
+				07F17ED31BB88F7C00A874E5 /* Resources */,
+				07F17ED21BB88F7600A874E5 /* Model */,
+				07F17ED11BB88F7100A874E5 /* View */,
+				07F17ED01BB88F6B00A874E5 /* Controller */,
 				07F17EBE1BB88F3500A874E5 /* AppDelegate.swift */,
-				07F17EC01BB88F3500A874E5 /* ViewController.swift */,
-				07F17EC21BB88F3500A874E5 /* Main.storyboard */,
 				07F17EC51BB88F3500A874E5 /* Assets.xcassets */,
-				07F17EC71BB88F3500A874E5 /* LaunchScreen.storyboard */,
 				07F17ECA1BB88F3500A874E5 /* Info.plist */,
 			);
 			path = Hubhop;
+			sourceTree = "<group>";
+		};
+		07F17ED01BB88F6B00A874E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07F17EC01BB88F3500A874E5 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		07F17ED11BB88F7100A874E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07F17EDC1BB8945A00A874E5 /* MaterialView.swift */,
+				07F17EE11BB89A2100A874E5 /* MaterialButton.swift */,
+				07F17EE31BB89D1100A874E5 /* MaterialTextField.swift */,
+				07F17EC21BB88F3500A874E5 /* Main.storyboard */,
+				07F17EC71BB88F3500A874E5 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		07F17ED21BB88F7600A874E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		07F17ED31BB88F7C00A874E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07F17ED41BB88F8E00A874E5 /* NotoSans-Bold.ttf */,
+				07F17ED51BB88F8E00A874E5 /* NotoSans-BoldItalic.ttf */,
+				07F17ED61BB88F8E00A874E5 /* NotoSans-Italic.ttf */,
+				07F17ED71BB88F8E00A874E5 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		07F17EDE1BB894AE00A874E5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				07F17EDF1BB894BD00A874E5 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		07F17EE51BB8A1CB00A874E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F17EE81BB8A1F400A874E5 /* FBSDKCoreKit.framework */,
+				07F17EE91BB8A1F400A874E5 /* FBSDKLoginKit.framework */,
+				07F17EE61BB8A1D800A874E5 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CAD7EDFB393A58301800AC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D00990CC1A2D841F702271A /* Pods-Hubhop.debug.xcconfig */,
+				5A15CB4FAC03293BFB2B1D82 /* Pods-Hubhop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC4C8447D3CBEDE817EBAB63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31FD5000D1EBB3EEB4D656A0 /* Pods_Hubhop.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07F17ECD1BB88F3500A874E5 /* Build configuration list for PBXNativeTarget "Hubhop" */;
 			buildPhases = (
+				D5AD9348DF1AD3266E8874CA /* Check Pods Manifest.lock */,
 				07F17EB71BB88F3500A874E5 /* Sources */,
 				07F17EB81BB88F3500A874E5 /* Frameworks */,
 				07F17EB91BB88F3500A874E5 /* Resources */,
+				28049255CFCDE0C267C66D5E /* Embed Pods Frameworks */,
+				0DDC8D54B67E1CC60519A299 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,21 +243,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F17ED81BB88F8E00A874E5 /* NotoSans-Bold.ttf in Resources */,
 				07F17EC91BB88F3500A874E5 /* LaunchScreen.storyboard in Resources */,
+				07F17ED91BB88F8E00A874E5 /* NotoSans-BoldItalic.ttf in Resources */,
+				07F17EDA1BB88F8E00A874E5 /* NotoSans-Italic.ttf in Resources */,
 				07F17EC61BB88F3500A874E5 /* Assets.xcassets in Resources */,
 				07F17EC41BB88F3500A874E5 /* Main.storyboard in Resources */,
+				07F17EDB1BB88F8E00A874E5 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DDC8D54B67E1CC60519A299 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hubhop/Pods-Hubhop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28049255CFCDE0C267C66D5E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hubhop/Pods-Hubhop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5AD9348DF1AD3266E8874CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07F17EB71BB88F3500A874E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F17EE41BB89D1100A874E5 /* MaterialTextField.swift in Sources */,
+				0728FBCC1BB8D23800150799 /* DataService.swift in Sources */,
+				07F17EDD1BB8945A00A874E5 /* MaterialView.swift in Sources */,
 				07F17EC11BB88F3500A874E5 /* ViewController.swift in Sources */,
 				07F17EBF1BB88F3500A874E5 /* AppDelegate.swift in Sources */,
+				07F17EE01BB894BD00A874E5 /* Constants.swift in Sources */,
+				07F17EE21BB89A2100A874E5 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,22 +425,34 @@
 		};
 		07F17ECE1BB88F3500A874E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D00990CC1A2D841F702271A /* Pods-Hubhop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hubhop",
+				);
 				INFOPLIST_FILE = Hubhop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = miracode.Hubhop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracode.hubhop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		07F17ECF1BB88F3500A874E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A15CB4FAC03293BFB2B1D82 /* Pods-Hubhop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hubhop",
+				);
 				INFOPLIST_FILE = Hubhop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = miracode.Hubhop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracode.hubhop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -285,6 +476,7 @@
 				07F17ECF1BB88F3500A874E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
