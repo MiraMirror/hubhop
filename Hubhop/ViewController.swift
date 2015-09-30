@@ -21,14 +21,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     //User already logged in
-    
-
     
     override func viewDidAppear(animated: Bool) {
         
@@ -48,6 +42,7 @@ class ViewController: UIViewController {
         let facebookLogin = FBSDKLoginManager()
         
         facebookLogin.logInWithReadPermissions(["email"]) { (facebookResult: FBSDKLoginManagerLoginResult!, facebookError: NSError!) -> Void in
+            
             
             if facebookError != nil {
                 print("facebook login was not succesful, Error \(facebookError)")
@@ -121,6 +116,8 @@ class ViewController: UIViewController {
         }
         
     }
+    
+    
     
     func showErrorAlert(title: String, msg: String) {
         let alert = UIAlertController(title: title, message: msg, preferredStyle: .Alert)

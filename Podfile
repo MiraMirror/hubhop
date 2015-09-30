@@ -4,6 +4,6 @@ use_frameworks!
 
 target 'Hubhop' do
 pod 'Firebase', '>= 2.4.0'
-
+pod 'Alamofire', '~> 2.0'
 end
 

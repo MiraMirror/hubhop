@@ -7,52 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		165944634187DB675D534349EF39EA95 /* Pods-Hubhop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E84920A794141BC007955DCF8F1B1A39 /* Pods-Hubhop-dummy.m */; };
-		753FAB5AD8F2A070F8C5895F8E1EC28C /* Pods-Hubhop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE49FFB4BE17CB99B4BE8C6BC564A4A /* Pods-Hubhop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC7EB0D3FE884D9D1F9FB843DECAA0E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86EED367ABEC60DE7580818CD1D4494 /* Foundation.framework */; };
+		01738F938901554DC6F86C1C26F6B745 /* Pods-Hubhop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC71E453712FEAF0DBD693C2A053574 /* Pods-Hubhop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04FD808479D9FD90B2F64893A50603DA /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB63A3C957DF044E731D276A5A1FCA8 /* Error.swift */; };
+		05A8A7083976805ED649B567B40F4302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89D77DD3B18BC4E905E1CF0A91C469D /* Foundation.framework */; };
+		0F320D08513B8CBC332A1DAE9EDC2548 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E380C581E5DC301932D004FF9585DBD1 /* Request.swift */; };
+		0FADD0BB69681D10E21F8259C61A769B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A75B87814A2B9E0F239063480897FC7 /* Result.swift */; };
+		263DF676FEB8F5F6E8A84AE018B9EF4A /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F3B8BE9E431C9352C6D02DEE6A6244 /* Stream.swift */; };
+		2CCFC3E732E4EF5A9F8054A558F941DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89D77DD3B18BC4E905E1CF0A91C469D /* Foundation.framework */; };
+		31BD8120ED137149C7A7184576E19FB4 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC72F1AB7E8756AD7FF7630AD8BB08 /* Download.swift */; };
+		392FA6082D2318C9AD5788AAF0B487C4 /* Pods-Hubhop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2245EDEE89A4AFD46CEAF486FD1D8148 /* Pods-Hubhop-dummy.m */; };
+		3CB85A51DD9229588605EB0161E0407F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35712AE23D82D7C63256963B507A555 /* MultipartFormData.swift */; };
+		5E20C7563611D9EBEC6C742E8716558D /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4D892B0AE71C19B6D3CED019A3A1E5 /* Manager.swift */; };
+		6431CC80206F1171D2D4E1C5F38C4F51 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4963B65B7D47AC43E45892BEA1D23 /* Upload.swift */; };
+		82BED9C6F050B38D65CD7EC4BE730BA7 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4D1F3EEEAD5F1F184DD03D039F5ED2 /* Alamofire-dummy.m */; };
+		8311543B433B3FF7472D2B9A95D1B08F /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2C8BAAFED9A073B1253AEC4A7C66A /* ParameterEncoding.swift */; };
+		8D9418A5B04709E96BE7616537529C4D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B7EA22A0CB3BEA4A0F83E0F2C99C7 /* Alamofire.swift */; };
+		9F2641F74A63DEF66D001E5ADD165A85 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103964B312ADF15644113F40BC3520E /* ServerTrustPolicy.swift */; };
+		B64D27F9E058BBE3602C77D14778933D /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F2E8929B119A1264FCC60C9BFF4F8 /* ResponseSerialization.swift */; };
+		C8F460D99DCCF930AACB4DDD410FA81E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E3BA8FC0E9BE4FFBED81314346D18 /* Validation.swift */; };
+		F0A9E6AEC6866D40CEB8A0406D6E22B9 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34497984C74BB5378CAF7FD25D1EA39A /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BAB0BFBAE5F2EEDF10DA06858D8FF424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CEE919A5C2E1D26C267A00C8CB089A;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		024529166133E66711BEDDC42B0D56EC /* Pods-Hubhop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hubhop.debug.xcconfig"; sourceTree = "<group>"; };
-		1B607E5878045C173F5033EA837FCFFE /* Pods_Hubhop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubhop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		050052A2F42D173A9D8263299207C20C /* Pods-Hubhop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hubhop.release.xcconfig"; sourceTree = "<group>"; };
+		0A9F6D85F1DBC38E79C76C605F4A260D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		0FC71E453712FEAF0DBD693C2A053574 /* Pods-Hubhop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hubhop-umbrella.h"; sourceTree = "<group>"; };
+		1A6700C1067ECAAA105E6E8AA98A5F0A /* Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		2245EDEE89A4AFD46CEAF486FD1D8148 /* Pods-Hubhop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hubhop-dummy.m"; sourceTree = "<group>"; };
+		25F3B8BE9E431C9352C6D02DEE6A6244 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
 		2CFDFA4D4F65DC59D74A5EF0775FFF93 /* Pods-Hubhop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hubhop-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C8B26741F9A68378EEC85F86A3A8416 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		2EB85EAFD48BC3C6D14C2ABEA78F23EC /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		34497984C74BB5378CAF7FD25D1EA39A /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		438F2E8929B119A1264FCC60C9BFF4F8 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		4C533E504FB2EF837D167FEEC4247A16 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		52F2C8BAAFED9A073B1253AEC4A7C66A /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		5EF6F1CA75777D9DB5144F88C8D1F74A /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		64974F8853D619FD47F5E37A3E7636B4 /* Pods-Hubhop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hubhop-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D828186A410B0E626C335DC7955E8CF /* Pods-Hubhop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hubhop.debug.xcconfig"; sourceTree = "<group>"; };
+		7103964B312ADF15644113F40BC3520E /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		7162F267B1DD6563FCC4D3FD8302C671 /* Pods-Hubhop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Hubhop.modulemap"; sourceTree = "<group>"; };
+		768E3BA8FC0E9BE4FFBED81314346D18 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		76F894D991BA751FE77EF2C09963E92A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		900411B3DB6A41457CC2900C603CAC96 /* Pods-Hubhop-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hubhop-resources.sh"; sourceTree = "<group>"; };
 		948DD1D5E98D321D13DB79CE62903B94 /* Pods-Hubhop-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hubhop-frameworks.sh"; sourceTree = "<group>"; };
-		9EE49FFB4BE17CB99B4BE8C6BC564A4A /* Pods-Hubhop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hubhop-umbrella.h"; sourceTree = "<group>"; };
+		9A75B87814A2B9E0F239063480897FC7 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		9F5B7EA22A0CB3BEA4A0F83E0F2C99C7 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		AAD4963B65B7D47AC43E45892BEA1D23 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		BA4D1F3EEEAD5F1F184DD03D039F5ED2 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E84920A794141BC007955DCF8F1B1A39 /* Pods-Hubhop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hubhop-dummy.m"; sourceTree = "<group>"; };
-		E86EED367ABEC60DE7580818CD1D4494 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ECB5D10BC3EE8B30B20678609B2D950A /* Pods-Hubhop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hubhop.release.xcconfig"; sourceTree = "<group>"; };
+		C2FC72F1AB7E8756AD7FF7630AD8BB08 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		C89D77DD3B18BC4E905E1CF0A91C469D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA4D892B0AE71C19B6D3CED019A3A1E5 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		CF43B93230AE27D517BEF62C8EA59850 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB63A3C957DF044E731D276A5A1FCA8 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		E380C581E5DC301932D004FF9585DBD1 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		EDFCA4381647B96BB91483C00EC2AEFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35712AE23D82D7C63256963B507A555 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		FA3BDA2628E5EBEDAA29C6FC9CF6BBFB /* Pods_Hubhop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hubhop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BEA4C28AE6277271FFCF789D748741F /* Frameworks */ = {
+		830FAD7E7B224D00712386A0308D2148 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7EB0D3FE884D9D1F9FB843DECAA0E8 /* Foundation.framework in Frameworks */,
+				05A8A7083976805ED649B567B40F4302 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCD11C96D711426076F4861685D9860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCFC3E732E4EF5A9F8054A558F941DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08EB0301D7058D194787A1E12DE21AEB /* Firebase */ = {
+		1C5B88E3D91EF99FFC34218A49BA78DC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				951D6080941521ECF10E0034F1504700 /* Frameworks */,
+				0A9F6D85F1DBC38E79C76C605F4A260D /* Alamofire.modulemap */,
+				5EF6F1CA75777D9DB5144F88C8D1F74A /* Alamofire.xcconfig */,
+				1A6700C1067ECAAA105E6E8AA98A5F0A /* Alamofire-Private.xcconfig */,
+				BA4D1F3EEEAD5F1F184DD03D039F5ED2 /* Alamofire-dummy.m */,
+				2EB85EAFD48BC3C6D14C2ABEA78F23EC /* Alamofire-prefix.pch */,
+				34497984C74BB5378CAF7FD25D1EA39A /* Alamofire-umbrella.h */,
+				76F894D991BA751FE77EF2C09963E92A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		2E410E82D74197187718CEC8144C4BF9 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				34A13C6B3DD823028966079A680BAC9D /* Frameworks */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		34A13C6B3DD823028966079A680BAC9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C533E504FB2EF837D167FEEC4247A16 /* Firebase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E86EED367ABEC60DE7580818CD1D4494 /* Foundation.framework */,
+				C89D77DD3B18BC4E905E1CF0A91C469D /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -62,7 +140,7 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8FE6DED196B0BB2273DCADFD114B581F /* Pods */,
+				CC97B23C53EBB8509697A9D6060D962A /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				D0805697AA08584BB06733141980158D /* Targets Support Files */,
 			);
@@ -75,31 +153,36 @@
 				7162F267B1DD6563FCC4D3FD8302C671 /* Pods-Hubhop.modulemap */,
 				2CFDFA4D4F65DC59D74A5EF0775FFF93 /* Pods-Hubhop-acknowledgements.markdown */,
 				64974F8853D619FD47F5E37A3E7636B4 /* Pods-Hubhop-acknowledgements.plist */,
-				E84920A794141BC007955DCF8F1B1A39 /* Pods-Hubhop-dummy.m */,
+				2245EDEE89A4AFD46CEAF486FD1D8148 /* Pods-Hubhop-dummy.m */,
 				948DD1D5E98D321D13DB79CE62903B94 /* Pods-Hubhop-frameworks.sh */,
 				900411B3DB6A41457CC2900C603CAC96 /* Pods-Hubhop-resources.sh */,
-				9EE49FFB4BE17CB99B4BE8C6BC564A4A /* Pods-Hubhop-umbrella.h */,
-				024529166133E66711BEDDC42B0D56EC /* Pods-Hubhop.debug.xcconfig */,
-				ECB5D10BC3EE8B30B20678609B2D950A /* Pods-Hubhop.release.xcconfig */,
+				0FC71E453712FEAF0DBD693C2A053574 /* Pods-Hubhop-umbrella.h */,
+				6D828186A410B0E626C335DC7955E8CF /* Pods-Hubhop.debug.xcconfig */,
+				050052A2F42D173A9D8263299207C20C /* Pods-Hubhop.release.xcconfig */,
 			);
 			name = "Pods-Hubhop";
 			path = "Target Support Files/Pods-Hubhop";
 			sourceTree = "<group>";
 		};
-		8FE6DED196B0BB2273DCADFD114B581F /* Pods */ = {
+		A969F882B0A308CF1ED4192AF1D962BB /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				08EB0301D7058D194787A1E12DE21AEB /* Firebase */,
+				9F5B7EA22A0CB3BEA4A0F83E0F2C99C7 /* Alamofire.swift */,
+				C2FC72F1AB7E8756AD7FF7630AD8BB08 /* Download.swift */,
+				DAB63A3C957DF044E731D276A5A1FCA8 /* Error.swift */,
+				CA4D892B0AE71C19B6D3CED019A3A1E5 /* Manager.swift */,
+				F35712AE23D82D7C63256963B507A555 /* MultipartFormData.swift */,
+				52F2C8BAAFED9A073B1253AEC4A7C66A /* ParameterEncoding.swift */,
+				E380C581E5DC301932D004FF9585DBD1 /* Request.swift */,
+				438F2E8929B119A1264FCC60C9BFF4F8 /* ResponseSerialization.swift */,
+				9A75B87814A2B9E0F239063480897FC7 /* Result.swift */,
+				7103964B312ADF15644113F40BC3520E /* ServerTrustPolicy.swift */,
+				25F3B8BE9E431C9352C6D02DEE6A6244 /* Stream.swift */,
+				AAD4963B65B7D47AC43E45892BEA1D23 /* Upload.swift */,
+				768E3BA8FC0E9BE4FFBED81314346D18 /* Validation.swift */,
+				1C5B88E3D91EF99FFC34218A49BA78DC /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		951D6080941521ECF10E0034F1504700 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3C8B26741F9A68378EEC85F86A3A8416 /* Firebase.framework */,
-			);
-			name = Frameworks;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -110,10 +193,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC97B23C53EBB8509697A9D6060D962A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A969F882B0A308CF1ED4192AF1D962BB /* Alamofire */,
+				2E410E82D74197187718CEC8144C4BF9 /* Firebase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B607E5878045C173F5033EA837FCFFE /* Pods_Hubhop.framework */,
+				CF43B93230AE27D517BEF62C8EA59850 /* Alamofire.framework */,
+				FA3BDA2628E5EBEDAA29C6FC9CF6BBFB /* Pods_Hubhop.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,32 +222,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6DC497C0E693DD153384644157EFA60E /* Headers */ = {
+		8CE506515E7A2D85B9F5FB05C96680E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				753FAB5AD8F2A070F8C5895F8E1EC28C /* Pods-Hubhop-umbrella.h in Headers */,
+				F0A9E6AEC6866D40CEB8A0406D6E22B9 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A539403BC2D2DE8619F621210233C816 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01738F938901554DC6F86C1C26F6B745 /* Pods-Hubhop-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A68CD66E07B09529DD13FCA7200BA037 /* Pods-Hubhop */ = {
+		A0CEE919A5C2E1D26C267A00C8CB089A /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6875F6BDD4B1F50D71AB23B585C1884 /* Build configuration list for PBXNativeTarget "Pods-Hubhop" */;
+			buildConfigurationList = 8E8ECF14A26F988BD5EE123B72E56599 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				5635F42DFC0BC215D03E9BA0DFDB31CC /* Sources */,
-				2BEA4C28AE6277271FFCF789D748741F /* Frameworks */,
-				6DC497C0E693DD153384644157EFA60E /* Headers */,
+				49AE5CD368F0610513ED32B9D2E5D7F9 /* Sources */,
+				830FAD7E7B224D00712386A0308D2148 /* Frameworks */,
+				8CE506515E7A2D85B9F5FB05C96680E7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = CF43B93230AE27D517BEF62C8EA59850 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8210ECF197274E0EB633E02FDC3596C /* Pods-Hubhop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D69DCABEA812EA1F1E23C21C612710 /* Build configuration list for PBXNativeTarget "Pods-Hubhop" */;
+			buildPhases = (
+				3DF6DDAD7341AC1CD05AB93B7329C1F9 /* Sources */,
+				EDCD11C96D711426076F4861685D9860 /* Frameworks */,
+				A539403BC2D2DE8619F621210233C816 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715F749818EE47103C7E2853D712A840 /* PBXTargetDependency */,
+			);
 			name = "Pods-Hubhop";
 			productName = "Pods-Hubhop";
-			productReference = 1B607E5878045C173F5033EA837FCFFE /* Pods_Hubhop.framework */;
+			productReference = FA3BDA2628E5EBEDAA29C6FC9CF6BBFB /* Pods_Hubhop.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -178,23 +297,81 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A68CD66E07B09529DD13FCA7200BA037 /* Pods-Hubhop */,
+				A0CEE919A5C2E1D26C267A00C8CB089A /* Alamofire */,
+				D8210ECF197274E0EB633E02FDC3596C /* Pods-Hubhop */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5635F42DFC0BC215D03E9BA0DFDB31CC /* Sources */ = {
+		3DF6DDAD7341AC1CD05AB93B7329C1F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165944634187DB675D534349EF39EA95 /* Pods-Hubhop-dummy.m in Sources */,
+				392FA6082D2318C9AD5788AAF0B487C4 /* Pods-Hubhop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AE5CD368F0610513ED32B9D2E5D7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BED9C6F050B38D65CD7EC4BE730BA7 /* Alamofire-dummy.m in Sources */,
+				8D9418A5B04709E96BE7616537529C4D /* Alamofire.swift in Sources */,
+				31BD8120ED137149C7A7184576E19FB4 /* Download.swift in Sources */,
+				04FD808479D9FD90B2F64893A50603DA /* Error.swift in Sources */,
+				5E20C7563611D9EBEC6C742E8716558D /* Manager.swift in Sources */,
+				3CB85A51DD9229588605EB0161E0407F /* MultipartFormData.swift in Sources */,
+				8311543B433B3FF7472D2B9A95D1B08F /* ParameterEncoding.swift in Sources */,
+				0F320D08513B8CBC332A1DAE9EDC2548 /* Request.swift in Sources */,
+				B64D27F9E058BBE3602C77D14778933D /* ResponseSerialization.swift in Sources */,
+				0FADD0BB69681D10E21F8259C61A769B /* Result.swift in Sources */,
+				9F2641F74A63DEF66D001E5ADD165A85 /* ServerTrustPolicy.swift in Sources */,
+				263DF676FEB8F5F6E8A84AE018B9EF4A /* Stream.swift in Sources */,
+				6431CC80206F1171D2D4E1C5F38C4F51 /* Upload.swift in Sources */,
+				C8F460D99DCCF930AACB4DDD410FA81E /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		715F749818EE47103C7E2853D712A840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = A0CEE919A5C2E1D26C267A00C8CB089A /* Alamofire */;
+			targetProxy = BAB0BFBAE5F2EEDF10DA06858D8FF424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		3086A5E56C1FEFD1891C570BD953E17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6700C1067ECAAA105E6E8AA98A5F0A /* Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -234,9 +411,37 @@
 			};
 			name = Debug;
 		};
-		6D126FB1DBEF33110172746A1167AAF9 /* Release */ = {
+		68EF8499110EEC1B4B1279AD30D515F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECB5D10BC3EE8B30B20678609B2D950A /* Pods-Hubhop.release.xcconfig */;
+			baseConfigurationReference = 1A6700C1067ECAAA105E6E8AA98A5F0A /* Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71B75542C5B39F27318045F1107AA583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050052A2F42D173A9D8263299207C20C /* Pods-Hubhop.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -297,9 +502,9 @@
 			};
 			name = Release;
 		};
-		ACB7CD72876430FE5DEA64056E46C76C /* Debug */ = {
+		780588C0DAC5AE1A71A137B9F93E999D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 024529166133E66711BEDDC42B0D56EC /* Pods-Hubhop.debug.xcconfig */;
+			baseConfigurationReference = 6D828186A410B0E626C335DC7955E8CF /* Pods-Hubhop.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -320,6 +525,7 @@
 				PRODUCT_NAME = Pods_Hubhop;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -338,11 +544,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6875F6BDD4B1F50D71AB23B585C1884 /* Build configuration list for PBXNativeTarget "Pods-Hubhop" */ = {
+		8E8ECF14A26F988BD5EE123B72E56599 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACB7CD72876430FE5DEA64056E46C76C /* Debug */,
-				6D126FB1DBEF33110172746A1167AAF9 /* Release */,
+				68EF8499110EEC1B4B1279AD30D515F1 /* Debug */,
+				3086A5E56C1FEFD1891C570BD953E17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D69DCABEA812EA1F1E23C21C612710 /* Build configuration list for PBXNativeTarget "Pods-Hubhop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780588C0DAC5AE1A71A137B9F93E999D /* Debug */,
+				71B75542C5B39F27318045F1107AA583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
